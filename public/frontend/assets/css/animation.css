@@ -1,0 +1,456 @@
+.nav .fa-gift , .navbar .fa-gift{
+    animation: gift-heart-beat 2s linear infinite;
+    
+    }
+    
+    @keyframes gift-heart-beat {
+        0%{
+            transform: scale(1);
+        }
+    
+        25%{
+            transform: scale(.9);
+        }
+    
+    50%{
+            transform: scale(1.8);
+      }
+      
+      50%{
+            transform: scale(1);
+        }
+    }
+    /* ========================================ad  */
+    .ad{
+      width: 100%;
+      height: 150px;
+        background-color: #121212;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    .ad i  {
+    
+        animation: gift-ad 2s  infinite linear ;
+        color:sandybrown;
+    
+    }
+    .ad span{
+        font-size: 20px;
+        display: flex;
+        display:inline-block;
+        }
+    
+        .ad  span.ad-price{
+            color:red;
+            animation: ad-price 2s  infinite linear ;
+    
+    
+        }
+    
+    
+        .ad  span.ad-text {
+            color:rgb(201, 183, 183);
+            animation: ad-price 2s  infinite linear ;
+    
+    
+        }
+    
+    
+    @keyframes ad-price{
+    
+        0%{
+            transform: translateX(0px);
+        }
+        25%{
+            transform: translateX(5px);
+    
+        }
+        50%{
+            transform: translateX(0px);
+    
+        }
+    
+        75%{
+            transform: translateX(-5px);
+    
+        }
+    
+        100%{
+            transform: translateX(0px);
+    
+        }
+    }
+    
+    /*  */
+    @keyframes ad-text{
+    
+    0%{
+        transform: translatey(0px);
+    }
+    25%{
+        transform: translatey(5px);
+    
+    }
+    50%{
+        transform: translatey(0px);
+    
+    }
+    
+    75%{
+        transform: translatey(-5px);
+    
+    }
+    
+    100%{
+        transform: translatey(0px);
+    
+    }
+    }
+    /*  */
+    
+    @keyframes gift-ad{
+        0%{
+        
+            transform: perspective(500px) rotateY(0deg);
+        }
+        25%{
+    
+            transform: perspective(500px) rotateY(25deg);
+        }
+        50%{
+            transform: perspective(500px) rotateY(0deg);
+    
+        }
+    
+        75%{
+            transform: perspective(500px) rotateY(-35deg);
+    
+        }
+    
+        100%{
+            transform: perspective(500px) rotateY(0deg);
+    
+        }
+    
+    }
+    
+    /* ====================================== */
+    
+    
+    
+      /* / */
+      /*  */
+      .adBig{
+    
+        width:900px;
+        height: 100px;
+        margin: 20px auto; 
+    }
+    /* .bg-adBig{
+        background-color: #000;
+    } */
+    
+    /* ==================================== Glower ============================= */
+    
+    /* ==================================== Glower ============================= */
+    
+    
+    
+    /*  */
+    .glower{
+       display: flex;
+       flex-direction: row;
+       padding: 0 20px;
+       justify-content: space-between;
+      align-items: center;
+       
+        height:100%;
+        width:100%;
+    
+        background-color: #fff;
+        overflow: hidden;
+        border:4px solid #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #fff ,0 0 10px #1eff4e ;
+    
+        animation: glow .1s linear infinite;
+        animation: animate 5s linear infinite;
+    
+        
+    background:linear-gradient(90deg ,#ea4335 ,#4285f4 , #34a853 , #fbb605 ,  #ea4335);
+    
+    
+    }
+    .glower h1 {
+       
+    
+      margin:0;
+      padding: 0;
+      font-size: 2em;
+      text-align: left;
+      text-transform: uppercase;
+      color:#fff;
+      -webkit-text-stroke:1px #121212;
+       letter-spacing: 2px;
+      line-height: 2em;
+      direction: ltr;
+      }
+    .glower h1.center{
+      text-align: center;
+    }
+    
+    .glower h1.left{
+      text-align: left;
+    }
+    /*  */
+    
+     .glower h1 span{
+      text-shadow:  0 0 10px #1eff4e ,0 0 20px #ffffff ;            
+      animation: glow 1s linear infinite;
+      animation: gift-ad 2s  infinite linear ;
+      display:inline-block;
+      font-size: 2em;
+    line-height: 2em;
+    
+    
+    }
+    
+    
+    /*  animations*/
+    .glower i  {
+    /* animtaion to gift */
+    
+        animation: gift-ad 2s  infinite linear ;
+        color:rgb(39, 22, 7);
+    
+    
+    }
+    
+    /* animtaion to price */
+        .glower  span.ad-price{
+        color:rgb(39, 8, 8);   
+        animation: ad-price 3s  infinite linear ;
+    
+    
+        font-size: 30px;
+        }
+    
+    /* animtaion to text */
+    
+        .glower  span.ad-text {
+            color:rgb(39, 8, 8);
+        animation: ad-price 3s  infinite linear ;
+    
+    
+        font-size: 30px;
+    
+      }
+    /*==============  Glower 1 black ========*/
+    .glower1{
+      display: flex;
+      flex-direction: row;
+      padding: 0 40px;
+      justify-content: space-between;
+     align-items: center;
+        height:100%;
+        width:100%;
+        overflow: hidden;
+ border-top : 3px solid  rgba(227, 95, 133 ,1);
+   border-bottom : 3px solid  rgba(227, 95, 133 ,1); 
+     
+        /*box-shadow: 0 0 10px #fff ,0 0 10px #1eff4e ;*/
+        animation: glow .1s linear infinite;
+      animation: animate 5s linear infinite;
+    background:linear-gradient(90deg ,#161515 ,#221d1e , #121010 , #070000 , #222121 ,#141010 , #161515);
+    }
+    .glower1 h1 {
+       
+    
+      margin:0;
+      padding: 0;
+      font-size: 5vw;
+      text-align: left;
+      text-transform: uppercase;
+      color:#fff;
+      -webkit-text-stroke:1px #121212;
+       letter-spacing: 2px;
+      line-height: 2em;
+      direction: ltr;
+      }
+      
+      .glower1 h1 span{
+      font-size: 5vw;
+      line-height: 2em;
+      display:inline-block;
+      color:#fff;
+      text-shadow:  0 0 10px #1eff4e ,0 0 20px #ffffff ;            
+      animation: glow 1s linear infinite;
+      animation: gift-ad 2s  infinite linear ;
+    
+      }
+    
+    
+      /*  */
+      .glower1 h1.center{
+        text-align: center;
+      }
+      
+      .glower1 h1.left{
+        text-align: left;
+      }
+    
+      .glower1 i  {
+    
+          animation: gift-ad 2s  infinite linear ;
+          color:rgb(39, 22, 7);
+          color:#fff;
+        
+        }
+        
+      .glower1  span.ad-price{
+        color:#fff;
+        font-size: 25px;
+        /* animation: ad-price 1s  infinite linear ; */
+        animation: gift-heart-beat 2s linear infinite;
+    
+      }
+    
+      .glower1  span.ad-text {
+            color:rgb(39, 8, 8);
+        /* animation: ad-price 1s  infinite linear ; */
+        animation: gift-heart-beat 2s linear infinite;    
+        color:#fff;
+        font-size: 25px;
+      }
+
+      .glower1  span.ad-count {
+        color:rgb(39, 8, 8);
+        animation: gift-heart-beat 2s linear infinite;
+        color:#fff;
+        font-size: 25px;
+  }
+  .glower1  span.ad-d-h-s {
+    color:rgb(39, 8, 8);
+    animation: gift-heart-beat 2s linear infinite;
+    color:#fff;
+    font-size: 20px;
+    
+}
+    /* ===================== animations ========================== */
+    .glower   h1 span:nth-child(1)
+    {
+    animation-delay: 1.5s;
+    }
+    .glower   h1 span:nth-child(2)
+    {
+    animation-delay: 2s;
+    }
+    
+    .glower   h1 span:nth-child(3)
+    {
+    animation-delay: 2.5s;
+    }
+    .glower   h1 span:nth-child(4)
+    {
+    animation-delay: 3s;
+    }
+    
+    /* glower 1 animation */
+    
+    
+    .glower1   h1 span:nth-child(1)
+    {
+    animation-delay: 1.5s;
+    }
+    .glower1   h1 span:nth-child(2)
+    {
+    animation-delay: 2s;
+    }
+    
+    .glower1   h1 span:nth-child(3)
+    {
+    animation-delay: 2.5s;
+    }
+    .glower1   h1 span:nth-child(4)
+    {
+    animation-delay: 3s;
+    }
+    
+    /*sna*/
+    
+    
+        
+    
+    @keyframes glow{
+    
+        0%{
+            opacity: 1;
+        }
+    
+        30%{
+            opacity: 1;
+        }
+        40%{
+            opacity: .5;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+      
+      /* ============ animate  of gradient =============== */
+    
+      @keyframes animate
+    {
+      0%{
+          background-position: 0 0 ;
+      }
+            
+      100%{
+          background-position:  900px   150px;
+      }
+    }
+    
+    
+      /*  top bar ad */
+
+
+      .adBig{
+    
+        width:100%;
+        height: 100px;
+        /*margin: 20px auto; */
+    }
+    /* --------------------------------------- */
+    @media only screen and (max-width:500px){
+        .adBig{
+    
+         
+            height: 200px;
+         
+        }
+
+        .glower1  span.ad-text {
+     
+        font-size: 20px;
+      }
+
+      
+      .glower1  span.ad-price {
+     
+        font-size: 20px;
+      }
+
+      .glower1  span.ad-count {
+     
+        font-size: 15px;
+      }
+    }
+    
+    /**/
